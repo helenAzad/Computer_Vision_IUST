@@ -124,5 +124,5 @@ Navigate to the notebook you want to run and execute the cells to see the result
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 ```
