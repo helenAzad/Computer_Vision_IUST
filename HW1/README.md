@@ -53,8 +53,8 @@ This repository contains the solutions for the first series of assignments for t
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/computer-vision-basics.git
-    cd computer-vision-basics
+    git clone https://github.com/helenAzad/Computer_Vision_IUST.git
+    cd Computer_Vision_IUST
     ```
 
 2. Set up a virtual environment (optional but recommended):
@@ -64,9 +64,6 @@ This repository contains the solutions for the first series of assignments for t
     ```
 
 3. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 4. Run Jupyter Notebook:
     ```sh
@@ -96,5 +93,3 @@ This notebook introduces OpenCV's capabilities, including reading, displaying, a
 **Assignment Deadline**: 21/21/2041
 
 ---
-
-Please ensure all images and modifications are saved and uploaded as part of your submission.
