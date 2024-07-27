@@ -1,7 +1,7 @@
 
-# Computer Vision Fundamentals - Assignment 5
+# Computer Vision Homework Series 5
 
-This repository contains solutions for the fifth series of assignments for the course **Fundamentals of Computer Vision** instructed by **Dr. Mohammadi**. The assignment focuses on connected components, region growing, Otsu's thresholding, morphological operations, and image analysis techniques.
+Welcome to the repository for the fifth series of assignments for the course **Fundamentals of Computer Vision**, instructed by **Dr. Mohammad Reza Mohammadi**. This series focouses on connected components, region growing, Otsu's thresholding, morphological operations, and object counting using Python and image processing libraries.
 
 ## Table of Contents
 
@@ -10,12 +10,12 @@ This repository contains solutions for the fifth series of assignments for the c
   - [Exercise 1: Connected Components](#exercise-1-connected-components)
   - [Exercise 2: Region Growing Algorithm](#exercise-2-region-growing-algorithm)
   - [Exercise 3: Otsu's Thresholding](#exercise-3-otsus-thresholding)
-  - [Exercise 4: Horizontal Thresholding](#exercise-4-horizontal-thresholding)
+  - [Exercise 4: Adaptive Thresholding](#exercise-4-adaptive-thresholding)
   - [Exercise 5: Erosion and Dilation](#exercise-5-erosion-and-dilation)
-  - [Exercise 6: Morphological Operations](#exercise-6-morphological-operations)
+  - [Exercise 6: Morphological Processing](#exercise-6-morphological-processing)
   - [Exercise 7: Car and Flower Counting](#exercise-7-car-and-flower-counting)
-  - [Exercise 8: Morphological Skeleton](#exercise-8-morphological-skeleton)
-  - [Exercise 9: Hit-or-Miss Operation](#exercise-9-hit-or-miss-operation)
+  - [Exercise 8: Skeleton Extraction](#exercise-8-skeleton-extraction)
+  - [Exercise 9: Hit-or-Miss Transformation](#exercise-9-hit-or-miss-transformation)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
@@ -23,59 +23,61 @@ This repository contains solutions for the fifth series of assignments for the c
 
 ## Introduction
 
-This assignment involves various image processing tasks such as finding connected components, implementing region growing algorithms, performing Otsu's thresholding, and applying morphological operations. It requires both theoretical understanding and practical implementation of these techniques.
+This repository contains the solutions for the fifth series of homework assignments in the **Fundamentals of Computer Vision** course. The assignments cover various topics, including connected components, region growing, Otsu's thresholding, morphological operations, and object counting.
 
 ## Exercises
 
 ### Exercise 1: Connected Components
 
-1. Given image `q1`, find the connected components and label each component with a different color. Print the total number of components on the image. (5 points)
+1. Identify the connected components in the given image `q1` and label each component with a different color. Also, print the total number of components on the image. (Use of ready-made functions is allowed) (Practical - 5 points)
 
 ### Exercise 2: Region Growing Algorithm
 
-2. Implement the region growing algorithm for image `q2`. Based on a seed point, color the person's face with your desired color. Implement both 4-connectivity and 8-connectivity, compare them, and test various thresholds. Do not use ready-made functions. (15 points)
+2. Implement the region growing algorithm for the given image `q2`. Color the face of the person based on the seed point with your desired color. Implement both 4-connectivity and 8-connectivity and compare the results. Test different thresholds and document the various results in your report. (Do not use ready-made functions) (Practical - 15 points)
 
 ### Exercise 3: Otsu's Thresholding
 
-3. Generate a random 5x5 image (single channel with values in the range 1 to 15). Apply Otsu's algorithm for threshold levels 6 and 10 on paper. Determine which threshold level is better. (10 points)
+3. Generate a random 5x5 image (single channel with values ranging from 1 to 15). Then manually apply Otsu's algorithm for threshold levels 6 and 10 on paper. Determine the better threshold level. (Theoretical - 10 points)
 
-### Exercise 4: Horizontal Thresholding
+### Exercise 4: Adaptive Thresholding
 
-4. Sadegh has applied horizontal thresholding with five different combinations of arguments on an image from his book. Determine the values of `C`, `blockSize`, and `thresholdType` for each of the images `q4_1` to `q4_5` and explain your reasoning. Possible values are:
-   - `C`: [5, 30]
-   - `blockSize`: [21, 41]
-   - `thresholdType`: [THRESH_BINARY, THRESH_BINARY_INV] (10 points)
+4. Sadegh recently applied adaptive thresholding with five different argument combinations on the image of his book, but now he doesn't know which resulting image corresponds to which combination of arguments. Refer to the images `[q4_1]` to `[q4_5]` and determine the values of `C`, `blockSize`, and `thresholdType` for each image. Explain your reasoning. (Theoretical - 10 points)
+   - Possible parameter values:
+     - `C`: [5, 30]
+     - `blockSize`: [21, 41]
+     - `thresholdType`: [THRESH_BINARY, THRESH_BINARY_INV]
 
 ### Exercise 5: Erosion and Dilation
 
-5. Apply the erosion and dilation operations on the given image using the specified structuring element. Use reflect padding if needed, and place the anchor in the center of the structuring element. (10 points)
+5. Apply the given structural element to perform erosion and dilation on the provided image. Use reflect padding if necessary, and ensure the anchor is at the center of the structural element. (Theoretical - 10 points)
 
-### Exercise 6: Morphological Operations
+### Exercise 6: Morphological Processing
 
-6. Analyze the effect of the following morphological operations on the given image and describe what processing is performed on the input image. (5 points)
+6. What will be the result of the morphological operation shown below on the given image? Describe the processing performed on the input image. (Theoretical - 5 points)
 
 ### Exercise 7: Car and Flower Counting
 
-7. Using morphological operations, write a program to count the number of cars in `car.jpg`. Convert the image to binary, remove extra lines using morphological operations, and find the number of cars using helper functions. (15 points)
-   - Write a program to count the number of sunflowers in `flower.jpg`. Use the color image and focus on the circular part of the flower to count them. (10 bonus points)
+7. Using morphological techniques and the provided links:
+   - Write a program to count the number of cars in the image `car.jpg`. (Practical - 15 points)
+     - Hint: Convert the image to a binary image, remove extra lines using morphological operators, and find the cars using auxiliary functions.
+   - Write a program to count the number of sunflowers in the image `flower.jpg` using the color image. Focus on the circular part of the flower to find the number of flowers. (Practical - Bonus - 10 points)
 
-### Exercise 8: Morphological Skeleton
+### Exercise 8: Skeleton Extraction
 
-8. a) Without using ready-made library functions, extract the skeleton of images `q8_5` to `q8_7` using morphological knowledge. (15 points)
-   b) Reconstruct the original images from the skeleton by saving the steps of skeleton extraction. (10 points)
+8. Extract the skeletons of the images `[q8_5]` to `[q8_7]` without using ready-made library functions. (Practical - 15 points)
+   - Save the steps of skeleton extraction and reconstruct the original images from the skeletons. (Practical - 10 points)
 
-### Exercise 9: Hit-or-Miss Operation
+### Exercise 9: Hit-or-Miss Transformation
 
-9. Using the hit-or-miss operator, find the boundaries of the given image and determine the appropriate structuring elements. (5 points)
+9. Use the hit-or-miss operator to find the boundaries of the given image and determine the appropriate structuring elements. (Theoretical - 5 points)
 
 ## Installation
 
-Clone the repository and install the required dependencies:
+To set up the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/computer-vision-assignment5.git
-cd computer-vision-assignment5
-pip install -r requirements.txt
+git clone https://github.com/helenAzad/Computer_Vision_IUST/HW5.git
+cd HW5
 ```
 
 ## Usage
@@ -90,12 +92,12 @@ Navigate to the notebook you want to run and execute the cells to see the result
 
 ## Contributors
 
-- **Instructor:** Dr. Mohammadi
-- **Teaching Assistants:** Peyolaee Zare, Zeinolabedin
+- **Instructor:** Dr. Mohammad Reza Mohammadi
+- **Teaching Assistants:** Zahra Tabatabaei, Saba Razi, Poulaei, Zeinalabedin
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Feel free to customize the repository URL, add any additional sections if needed, and update any specific details related to your project.
+Feel free to replace the placeholders (like `https://github.com/helenAzad/Computer_Vision_IUST.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.
