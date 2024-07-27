@@ -1,8 +1,7 @@
 
-```markdown
 # Computer Vision Homework Series 5
 
-Welcome to the repository for the fifth series of assignments for the course **Fundamentals of Computer Vision**, instructed by **Dr. Mohammad Reza Mohammadi**. This series focuses on connected components, region growing, Otsu's thresholding, morphological operations, and object counting using Python and image processing libraries.
+Welcome to the repository for the fifth series of assignments for the course **Fundamentals of Computer Vision**, instructed by **Dr. Mohammad Reza Mohammadi**. This series focouses on connected components, region growing, Otsu's thresholding, morphological operations, and object counting using Python and image processing libraries.
 
 ## Table of Contents
 

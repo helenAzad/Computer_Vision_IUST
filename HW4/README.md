@@ -66,7 +66,7 @@ This repository contains the solutions for the fourth series of homework assignm
 To set up the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/helenAzad/Computer-Vision_IUST.git
+git clone https://github.com/helenAzad/Computer_Vision_IUST.git
 cd computer-vision-homework
 
 Navigate to the notebook you want to run and execute the cells to see the results.
@@ -81,4 +81,4 @@ Navigate to the notebook you want to run and execute the cells to see the result
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Feel free to replace the placeholders (like `https://github.com/yourusername/computer-vision-homework.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.
+Feel free to replace the placeholders (like `https://github.com/helenAzad/Computer-Vision_IUST.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.
