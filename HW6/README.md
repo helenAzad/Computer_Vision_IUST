@@ -1,5 +1,4 @@
 
-```markdown
 # Computer Vision Fundamentals - Assignment 6
 
 This repository contains solutions for the sixth series of assignments for the course **Fundamentals of Computer Vision** instructed by **Dr. Mohammad Reza Mohammadi**. The assignment focuses on Convolutional Neural Networks (CNNs), backpropagation, various image processing techniques, and applying these concepts to practical problems.
