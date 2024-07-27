@@ -1,6 +1,5 @@
 To integrate the new "Computer Vision Fundamentals - Assignment 6" project into your existing `README.md`, you'll need to add it to the "Assignments" section. Here’s how you can update your `README.md` to include this new assignment:
 
-```markdown
 # Computer Vision Fundamentals Assignments
 
 This repository contains a series of assignments for the **Fundamentals of Computer Vision** course instructed by **Dr. Mohammadi**. Each assignment is organized in its own folder and covers various topics and practical exercises related to computer vision.
