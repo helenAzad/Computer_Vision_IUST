@@ -1,4 +1,4 @@
-```
+
 # Computer Vision Fundamentals - Assignment 5
 
 This repository contains solutions for the fifth series of assignments for the course **Fundamentals of Computer Vision** instructed by **Dr. Mohammadi**. The assignment focuses on connected components, region growing, Otsu's thresholding, morphological operations, and image analysis techniques.
