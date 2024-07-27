@@ -201,5 +201,3 @@ jupyter notebook
 
 This project is licensed under the MIT License.
 ```
-
-You can replace `helenAzad` with your actual GitHub username in the installation section. This update integrates the new assignment into the overall structure and ensures consistency across your `README.md` file.
