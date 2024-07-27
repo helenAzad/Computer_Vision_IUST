@@ -1,3 +1,5 @@
+
+```markdown
 # Computer Vision Homework Series 5
 
 Welcome to the repository for the fifth series of assignments for the course **Fundamentals of Computer Vision**, instructed by **Dr. Mohammad Reza Mohammadi**. This series focuses on connected components, region growing, Otsu's thresholding, morphological operations, and object counting using Python and image processing libraries.
@@ -17,7 +19,7 @@ Welcome to the repository for the fifth series of assignments for the course **F
   - [Exercise 9: Hit-or-Miss Transformation](#exercise-9-hit-or-miss-transformation)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributors](#helenAzad)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Introduction
@@ -75,5 +77,28 @@ This repository contains the solutions for the fifth series of homework assignme
 To set up the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/Computer_Vision_IUST/HW5.git
+git clone https://github.com/helenAzad/Computer_Vision_IUST/HW5.git
 cd HW5
+```
+
+## Usage
+
+Run the Jupyter notebooks to execute the code for each exercise:
+
+```bash
+jupyter notebook
+```
+
+Navigate to the notebook you want to run and execute the cells to see the results.
+
+## Contributors
+
+- **Instructor:** Dr. Mohammad Reza Mohammadi
+- **Teaching Assistants:** Zahra Tabatabaei, Saba Razi, Poulaei, Zeinalabedin
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Feel free to replace the placeholders (like `https://github.com/helenAzad/Computer_Vision_IUST.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.

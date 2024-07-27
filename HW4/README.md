@@ -68,3 +68,17 @@ To set up the project, clone the repository and install the required dependencie
 ```bash
 git clone https://github.com/helenAzad/Computer-Vision_IUST.git
 cd computer-vision-homework
+
+Navigate to the notebook you want to run and execute the cells to see the results.
+
+## Contributors
+
+- **Instructor:** Dr. Mohammad Reza Mohammadi
+- **Teaching Assistants:** Zahra Tabatabaei, Saba Razi, Poulaei, Hajiabadi, Zeinalabedin
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Feel free to replace the placeholders (like `https://github.com/yourusername/computer-vision-homework.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.
