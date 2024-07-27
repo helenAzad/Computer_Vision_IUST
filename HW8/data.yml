@@ -1,0 +1,6 @@
+train: ../path/to/train/images  # path to training images
+val: ../path/to/val/images  # path to validation images
+
+nc: 6  # number of classes
+
+names: ['ok', 'hi', 'love', 'not', 'victory', 'four']  # class names
