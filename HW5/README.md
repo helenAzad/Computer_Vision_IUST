@@ -61,7 +61,7 @@ This repository contains the solutions for the fifth series of homework assignme
 7. Using morphological techniques and the provided links:
    - Write a program to count the number of cars in the image `car.jpg`. (Practical - 15 points)
      - Hint: Convert the image to a binary image, remove extra lines using morphological operators, and find the cars using auxiliary functions.
-   - Write a program to count the number of sunflowers in the image `flower.jpg` using the color image. Focus on the circular part of the flower to find the number of flowers. (Practical - Bonus - 10 points)
+   - Write a program to count the number of sunflowers in the image `flower.jpg` using the color image. Focous on the circular part of the flower to find the number of flowers. (Practical - Bonus - 10 points)
 
 ### Exercise 8: Skeleton Extraction
 
@@ -77,9 +77,32 @@ This repository contains the solutions for the fifth series of homework assignme
 To set up the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/helenAzad/Computer_Vision_IUST/HW5.git
-cd HW5
+git clone https://github.com/yourusername/computer-vision-homework.git
+cd computer-vision-homework
+pip install -r requirements.txt
 ```
+
+## Usage
+
+Run the Jupyter notebooks to execute the code for each exercise:
+
+```bash
+jupyter notebook
+```
+
+Navigate to the notebook you want to run and execute the cells to see the results.
+
+## Contributors
+
+- **Instructor:** Dr. Mohammad Reza Mohammadi
+- **Teaching Assistants:** Zahra Tabatabaei, Saba Razi, Poulaei, Zeinalabedin
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Feel free to replace the placeholders (like `https://github.com/yourusername/computer-vision-homework.git`) with your actual repository details. This README provides a clear overview of the project, its structure, and how to set it up and use it.
 
 ## Usage
 
