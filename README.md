@@ -1,17 +1,16 @@
-To integrate the new "Computer Vision Fundamentals - Assignment 6" project into your existing `README.md`, you'll need to add it to the "Assignments" section. Here’s how you can update your `README.md` to include this new assignment:
 
 # Computer Vision Fundamentals Assignments
 
-This repository contains a series of assignments for the **Fundamentals of Computer Vision** course instructed by **Dr. Mohammadi**. Each assignment is organized in its own folder and covers various topics and practical exercises related to computer vision.
+This repository contains a series of assignments for the **Basics of Computer Vision** course instructed by **Dr. Mohammadi**. Each assignment is organized in its own folder and covers various topics and practical exercises related to computer vision.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Assignments](#assignments)
-  - [Computer Vision Basics - Homework Series 1](#computer-vision-basics---homework-series-1)
-  - [Computer Vision Basics - Homework Series 2](#computer-vision-basics---homework-series-2)
-  - [Computer Vision Basics - Homework Series 3](#computer-vision-basics---homework-series-3)
-  - [Computer Vision Basics - Homework Series 4](#computer-vision-basics---homework-series-4)
+  - [Assignment 1](#assignment-1)
+  - [Assignment 2](#assignment-2)
+  - [Assignment 3](#assignment-3)
+  - [Assignment 4](#assignment-4)
   - [Assignment 5](#assignment-5)
   - [Assignment 6](#assignment-6)
   - [Assignment 7](#assignment-7)
@@ -189,10 +188,10 @@ jupyter notebook
 
 - **Instructor:** Dr. Mohammadi
 - **Teaching Assistants:**
-  - Homework Series 1: Morteza Haji Abadi
-  - Homework Series 2: Zahra Tabatabai, Saba Razi
-  - Homework Series 3: Aysa Miyaninia, Saba Razi, Zahra Tabatabai
-  - Homework Series 4: Zahra Tabatabai, Saba Razi, Poulaei, Hajiabadi, Zeinalabedin
+  - Assignment 1: Morteza Haji Abadi
+  - Assignment 2: Zahra Tabatabai, Saba Razi
+  - Assignment 3: Aysa Miyaninia, Saba Razi, Zahra Tabatabai
+  - Assignment 4: Zahra Tabatabai, Saba Razi, Poulaei, Hajiabadi, Zeinalabedin
   - Assignment 5: Pouya Elazar, Zain Alabedin
   - Assignment 6: Nadery Fard, Ghayouri, Mirakhourlou
   - Assignment 7: Nadery Fard, Ghayouri, Mirakhorloo
@@ -200,7 +199,7 @@ jupyter notebook
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 ```
 
 You can replace `helenAzad` with your actual GitHub username in the installation section. This update integrates the new assignment into the overall structure and ensures consistency across your `README.md` file.
