@@ -90,6 +90,6 @@ This notebook introduces OpenCV's capabilities, including reading, displaying, a
 **Instructor**: Dr. Mohammadi  
 **Teaching Assistant**: Morteza Haji Abadi
 
-**Assignment Deadline**: 21/21/2041
+**Assignment Deadline**: 12/12/1402
 
 ---
